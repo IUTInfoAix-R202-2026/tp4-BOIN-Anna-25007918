@@ -1,5 +1,7 @@
 package fr.univ_amu.iut.exercice1;
 
+import javafx.beans.property.StringProperty;
+
 /**
  * Modèle de l'exercice 1.
  *
@@ -22,5 +24,10 @@ public class Message {
 
   public void setTexte(String texte) {
     this.texte = texte;
+  }
+
+  public void addListener(StringProperty texte2, StringProperty apercu) {
+    // TODO Auto-generated method stub
+    throw new UnsupportedOperationException("Unimplemented method 'addListener'");
   }
 }
